@@ -23,7 +23,7 @@ class REQ01CadastroLivro {
 	 * "Engenharia de Software", "Pressman"); biblioteca.add(umLivro);
 	 * assertEquals(1, biblioteca.size()); }
 	 */
-/*
+
 	@Test
 	void ct02_quando_dados_validos_cadastra_com_sucesso() {
 		Biblioteca biblioteca = new Biblioteca();
@@ -49,8 +49,8 @@ class REQ01CadastroLivro {
 		biblioteca.add(umLivro);
 		List<Livro> lista = biblioteca.getLivros();
 		assertEquals("Engenharia de Software", lista.get(0).getTitulo());
-	}*/
-	
+	}
+	//Consertar
 	@Test
 	void ct04_quando_dado_do_titulo_invalido_cadastra_com_falha() {
 		Biblioteca biblioteca = new Biblioteca();
@@ -59,7 +59,7 @@ class REQ01CadastroLivro {
 		List<Livro> lista = biblioteca.getLivros();
 		assertEquals("Engenharia de Software", lista.get(0).getTitulo());
 	}
-	/*
+	//consertar
 	@Test
 	void ct05_quando_dado_do_autor_invalido_cadastra_com_falha() {
 		Biblioteca biblioteca = new Biblioteca();
@@ -68,5 +68,5 @@ class REQ01CadastroLivro {
 		List<Livro> lista = biblioteca.getLivros();
 		assertEquals("Engenharia de Software", lista.get(0).getTitulo());
 	}
-*/
+
 }
